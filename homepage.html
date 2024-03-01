@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> I DONT HAVE CPU</title>
+  <link rel="icon" type="image/x-icon" href="picture/Screenshot_2023-12-14_111841.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="homepageStyle.css">
+  
+  <style>
+  
+    .btn-hover-effect:hover {
+      background-color: #6c757d !important;
+      color: #fff !important;
+    }
+
+nav{
+    background-color: black;
+}
+  
+.buttons{
+   
+    border-radius: 8px;
+}
+.logo-text{
+    display: flexbox;
+    height: 50px;
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: small;
+    
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid red;
+}
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(38, 37, 37);
+    }
+    
+    .product-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-card {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 20px;
+        transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .product-card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .product-details {
+        padding: 20px;
+    }
+    
+    .product-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .product-description {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 15px;
+    }
+    
+    .product-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .product-action {
+        text-align: center;
+        padding: 15px;
+        background-color: #f5f5f5;
+    }
+    
+    .product-action button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .product-action button:hover {
+        background-color: #0056b3;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .page-link {
+        display: inline-block;
+        margin: 0 5px;
+        padding: 5px 10px;
+        background-color: #ccc;
+        color: #000;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .page-link:hover {
+        background-color: #666;
+        color: #fff;
+    }
+    .pagination{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="picture/Screenshot_2023-12-14_111841.png" alt="Your Logo" width="50" height="50" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link btn-hover-effect" href="#">หน้าหลัก</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn-hover-effect" href="#">กันดั้มคืออะไร</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn-hover-effect" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+            </svg> ตระกร้า</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link btn-hover-effect" href="http://127.0.0.1:5501/contact.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
+            <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
+          </svg> ติดต่อเรา</a>
+        </li>
+      </ul>
+       
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+   
+    </div>
+  
+</nav>
+
+
+
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="picture/ne.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="picture/p2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="picture/9g.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+
+<script src="homepageJs.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<h2></h2>
+<div class="container">
+<section class="customer-logos slider">
+  <div class="slide"><img src="https://th.bing.com/th?id=OIP.dqhPwFUPnQp3sWJMAFExDQHaEa&w=324&h=192&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></div>
+  <div class="slide"><img src="https://i.pinimg.com/736x/a9/39/7d/a9397d120bfea4478821815859b6ba40.jpg"></div>
+  <div class="slide"><img src="https://th.bing.com/th?id=OIP.SCeUHt5AvkgQo9wx5k8lcAHaD_&w=340&h=183&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></div>
+  <div class="slide"><img src="https://th.bing.com/th?id=OIP.O6BCXJsi6vZaPFKDwqcB3QHaDb&w=349&h=162&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></div>
+  <div class="slide"><img src="https://th.bing.com/th/id/R.7cc2bd6a78ab683370bdfbe819151e73?rik=8r6ARZI4fCedBg&riu=http%3a%2f%2fcx.lnwfile.com%2f_%2fcx%2f_raw%2fp0%2f3k%2fqe.png&ehk=WHuhuT0ZdRFan7dXiu4fmidvsfqXWQpu6XGatd9OALY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"></div>
+
+  <div class="slide"><img src="https://www.logolynx.com/images/logolynx/b0/b01a1f4106058555f8485c5f1d975468.png"></div>
+  <div class="slide"><img src="https://th.bing.com/th/id/OIP.sOi5mD399YK3c4Zb4__hJQHaCz?rs=1&pid=ImgDetMain"></div>
+  <div class="slide"><img src="https://th.bing.com/th/id/R.ab1c96a829e14e7f9c52e20178e3d0b7?rik=PCgxQix%2ftZCCbA&riu=http%3a%2f%2fwww.custompcreview.com%2fwp-content%2fuploads%2f2013%2f08%2fintel_logo.jpg&ehk=c376vs04pmEh%2ffXHdug3BUwOjEA3DoH%2fSp3jinbBvJM%3d&risl=&pid=ImgRaw&r=0"></div>
+  <div class="slide"><img src="https://en.wikichip.org/w/images/2/23/amd_ryzen_black_bg_logo.png"></div>
+</section>
+</div>
+
+
+
+<div class="product-cards">
+  <!-- Product Card 1 -->
+  <div class="product-card">
+      <img src="https://da.lnwfile.com/_/da/_resize/250/250/h4/bh/9g.jpg">
+      <div class="product-details">
+          <div class="product-title">Hi nu</div>
+          <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div class="product-price">1,600฿</div>
+      </div>
+      <div class="product-action">
+        <a href="http://127.0.0.1:5501/product1.html" target="_blank">
+          <button>ใส่ตระกร้า</button>
+        </a>
+      </div>
+  </div>
+
+  <!-- Product Card 2 -->
+  <div class="product-card">
+      <!-- Content for Product Card 2 -->
+      <img src="https://da.lnwfile.com/_/da/_resize/250/250/r9/f0/eb.jpg" alt="Product Image">
+      <div class="product-details">
+          <div class="product-title">PG 00 RAISER</div>
+          <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div class="product-price">2,000฿</div>
+      </div>
+      <div class="product-action">
+        <a href="http://127.0.0.1:5501/product2.html" target="_blank">
+          <button>ใส่ตระกร้า</button>
+        </a>
+      </div>
+  </div>
+
+  <!-- Product Card 3 -->
+  <div class="product-card">
+      <!-- Content for Product Card 3 -->
+      <img src="https://da.lnwfile.com/_/da/_resize/250/250/u6/rw/11.jpg" alt="Product Image">
+      <div class="product-details">
+          <div class="product-title">HG GUNDAM AMAZING EXIA</div>
+          <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div class="product-price">600฿</div>
+      </div>
+      <div class="product-action">
+        <a href="http://127.0.0.1:5501/product3.html">
+          <button>ใส่ตระกร้า</button>
+        </a>
+      </div>
+  </div>
+
+  <!-- Product Card 4 -->
+  <div class="product-card">
+      <!-- Content for Product Card 4 -->
+      <img src="https://da.lnwfile.com/_/da/_resize/250/250/x0/fs/hr.jpg" alt="Product Image">
+      <div class="product-details">
+          <div class="product-title">30MS TUKIRNA-DIEARTH</div>
+          <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <div class="product-price">1,800฿</div>
+      </div>
+      <div class="product-action">
+        <a href="http://127.0.0.1:5501/product4.html">
+          <button>ใส่ตระกร้า</button>
+        </a>
+      </div>
+  </div>
+</div>
+
+
+</body>
+<section class="Pagination-box">
+  <div class="pagination">
+    <a href="#" class="page-link">&laquo; Prev</a>
+    <a href="#" class="page-link">1</a>
+    <a href="#" class="page-link">2</a>
+    <a href="#" class="page-link">3</a>
+    <a href="#" class="page-link">4</a>
+    <a href="#" class="page-link">Next &raquo;</a>
+  </div>
+</section>
+</html>
